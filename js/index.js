@@ -9,6 +9,7 @@ fetch('https://jsonplaceholder.typicode.com/users/')
 		 '<br><ul class=b>' + 
 		 '<li><b>Email:</b> ' + data[key].email + 
 		 '<li><b>Phone:</b> ' + data[key].phone +
+	         '<li><b>Website:</b> ' + data[key].website +
 		 '<li><b>Street:</b> ' + data[key].address.street + 
 		 '<li><b>Suite:</b> ' + data[key].address.suite + 
 		 '<li><b>City:</b> ' + data[key].address.city +

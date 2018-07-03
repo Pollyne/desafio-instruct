@@ -9,7 +9,10 @@ fetch('https://jsonplaceholder.typicode.com/users/')
 		 '<br><ul class=b>' + 
 		 '<li><b>Email:</b> ' + data[key].email + 
 		 '<li><b>Phone:</b> ' + data[key].phone +
+		 '<li><b>Street:</b> ' + data[key].address.street + 
+		 '<li><b>Suite:</b> ' + data[key].address.suite + 
 		 '<li><b>City:</b> ' + data[key].address.city +
+		 '<li><b>ZipCode:</b> ' + data[key].address.zipcode +
 		 '</ul>'; 
 	 
 	 var addCard = document.createDocumentFragment(),

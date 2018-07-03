@@ -60,7 +60,7 @@ body {
   }
 }
 .card:hover .card__inner {
-  background-color: #1abc9c;
+  background-color: #858d94;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
@@ -69,7 +69,7 @@ body {
   padding: 30px;
   position: relative;
   cursor: pointer;
-  background-color: #949fb0;
+  background-color: #283C50;
   color: #eceef1;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -81,7 +81,7 @@ body {
 ul.b {
 	font-size: 0.6em;
 	text-align: left;
-	color: #305a98;
+	color: #ffffff;
 	list-style-type: circle;
 
 }
